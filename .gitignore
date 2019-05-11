@@ -1,0 +1,5 @@
+.exercism/
+.idea/
+*.md
+*iml
+*test.py
