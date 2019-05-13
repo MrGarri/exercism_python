@@ -2,7 +2,7 @@ from math import sqrt
 
 
 def score(x, y):
-    distance = _distance(x, y)
+    distance = sqrt(x ** 2 + y ** 2)
 
     if distance <= 1:
         return 10
@@ -12,7 +12,3 @@ def score(x, y):
         return 1
     else:
         return 0
-
-
-def _distance(x, y):
-    return sqrt(x ** 2 + y ** 2)
