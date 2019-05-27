@@ -2,7 +2,8 @@ import sys
 
 
 def calculate(question: str) -> int:
-    words = question[8:-1].split()
+    # words = question[8:-1].split()
+    words = question[:-1].split()[2:]
 
     try:
         result = int(words.pop(0))
